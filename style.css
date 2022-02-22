@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: url('https://fonts.googleapis.com/css?family=Montserrat');
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  text-transform: uppercase;
+  user-select: none;
+}
+
+body {
+  background-color: #513b85;
+  color: white;
+  font-size: 16px;
+  font-family: Montserrat, arial, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+  text-align: center;
+  margin: 1em 0;
+}
+
+canvas {
+  display: block;
+  image-rendering: pixelated;
+  margin: 2em auto;
+  box-shadow: 0 0 10px rgba(#000, 0.3);
+  border: 2px solid white;
+}
