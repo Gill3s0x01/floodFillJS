@@ -26,7 +26,7 @@ for (let i = 0; i < 25; i++) {
   ctx.fillStyle = randomColor()
   ctx.fillRect(
     Math.round((Math.random() * canvas.width) / 2),
-    Math.round((Math.random() * canvas.height) / 2),
+    Math.round((Math.random() * canvas.height) / 3),
     Math.round(Math.random() * 50),
     Math.round(Math.random() * 50)
   )
@@ -141,4 +141,9 @@ canvas.addEventListener('click', (event) => {
   const y = Math.round(event.clientY - rect.top)
   floodFill(imageData, col, x, y)
   ctx.putImageData(imageData, 0, 0)
+})
+
+var btn = document.querySelector('#refresh')
+btn.addEventListener('click', function () {
+  location.reload()
 })

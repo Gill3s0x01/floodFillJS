@@ -4,12 +4,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=h1, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./style.css" />
     <title>Document</title>
   </head>
   <body>
-    <h1>Implementing the Flood Fill algorithm with canvas and HTML5</h1>
+    <a>
+      Implementing the Flood Fill algorithm with canvas and HTML5 through a game
+    </a>
     <canvas id="main-canvas"> #output </canvas>
-    <script src="./script.js"></script>
   </body>
+  <div>
+    <button id="refresh">Start Game</button>
+  </div>
+  <div class="timeClock">
+    <h1 id="clock"><time>Time</time></div>
+    <button id="strt">Start</button>
+    <button id="stp">Stop</button>
+    <button id="rst">Reset</button>
+  </div>
+
+  <script src="./js/crono.js"></script>
+  <script src="./js/script.js"></script>
 </html>
